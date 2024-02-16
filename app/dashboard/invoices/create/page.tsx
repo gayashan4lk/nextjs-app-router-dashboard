@@ -9,11 +9,9 @@ export default async function Page() {
 		<main>
 			<Breadcrumbs
 				breadcrumbs={[
-					{ label: 'Invoices', href: '/dashboard/invoices' },
+					{ label: 'Invoices', href: '/dashboard/invoices', active: true },
 					{
-						label: 'Create Invoice',
-						href: '/dashboard/invoices/create',
-						active: true,
+						label: 'Create Invoice', href: '/dashboard/invoices/create', active: true,
 					},
 				]}
 			/>
